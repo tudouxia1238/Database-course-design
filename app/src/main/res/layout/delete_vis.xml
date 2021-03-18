@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/teadeleteTV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="28dp"
+        android:text="删除参观者信息"
+        android:textColor="#EADCDC"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/teadeleteTV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/teadeleteTV1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="34dp"
+        android:text="请输入要删除的参观者的ID："
+        android:textColor="#ECDDDD"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/teadeleteET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/teadeleteTV2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/teadeleteTV2"
+        android:layout_marginStart="-210dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="21dp"
+        android:layout_toRightOf="@+id/teadeleteET"
+        android:background="#9EACBA"
+        android:onClick="teaDeleteLoad"
+        android:scaleType="centerCrop"
+        android:src="@drawable/delete_btn" />
+
+</RelativeLayout>

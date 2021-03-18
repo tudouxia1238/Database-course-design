@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/general_bg"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <EditText
+        android:id="@+id/ET1"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/title"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="230dp"
+        android:hint="请输入用户名"
+        android:singleLine="true"
+        android:textColor="@drawable/text" />
+
+    <TextView
+        android:id="@+id/TV1"
+        android:layout_width="176dp"
+        android:layout_height="49dp"
+        android:layout_alignTop="@id/ET1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="-84dp"
+        android:layout_toLeftOf="@id/ET1"
+        android:paddingTop="7dp"
+        android:text="用户名:"
+        android:textColor="#333333"
+        android:textSize="22dp" />
+
+    <EditText
+        android:id="@+id/ET2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ET1"
+        android:layout_alignLeft="@+id/ET1"
+        android:layout_alignParentRight="true"
+        android:hint="请输入密码"
+        android:password="true"
+        android:singleLine="true"
+        android:textColor="@drawable/text" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_alignLeft="@+id/imageView2"
+        android:background="@color/colorPrimary"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:onClick="load"
+        android:text="讲解员登录" />
+
+    <TextView
+        android:id="@+id/TV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TV1"
+        android:layout_alignTop="@+id/ET2"
+        android:paddingTop="7dp"
+        android:text="密    码:"
+        android:textColor="#333333"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TV1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="112dp"
+        android:text="校史馆讲解预约系统"
+        android:textColor="#F4F1F1"
+        android:textSize="32dp" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignEnd="@+id/btn"
+        android:layout_alignRight="@+id/btn"
+        android:layout_marginTop="12dp"
+        android:background="@color/colorPrimary"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:onClick="register"
+        android:text="注册" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_alignLeft="@+id/imageView"
+        android:background="@color/colorPrimary"
+        android:focusableInTouchMode="false"
+        android:onClick="adminer"
+        android:text="管理员登录" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/admin_photo"
+        android:layout_below="@+id/ET2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/student_photo"
+        android:layout_below="@+id/ET2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

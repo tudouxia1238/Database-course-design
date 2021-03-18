@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:id="@+id/teaupdateTV1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/teaupdateTV0"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="22dp"
+            android:text="ID    号:"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/teaupdateTV2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/teaupdateET2"
+            android:layout_alignBottom="@+id/teaupdateET2"
+            android:layout_alignParentLeft="true"
+            android:text="班    级："
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/teaupdateET3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/teaupdateET2"
+            android:layout_alignLeft="@+id/teaupdateET4"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/teaupdateET1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/teaupdateTV1"
+            android:layout_alignLeft="@+id/teaupdateET2"
+            android:layout_alignBottom="@+id/teaupdateTV1"
+            android:ems="10"
+            android:inputType="textMultiLine">
+
+            <requestFocus />
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/teaupdateET2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/teaupdateET1"
+            android:layout_alignLeft="@+id/teaupdateET3"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:id="@+id/teaupdateTV3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/teaupdateET3"
+            android:layout_alignBottom="@+id/teaupdateET3"
+            android:layout_alignParentLeft="true"
+            android:text="电    话："
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/teaupdateTV7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/teaupdateET4"
+            android:layout_alignBottom="@+id/teaupdateET4"
+            android:layout_alignParentLeft="true"
+            android:text="参观学院："
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/teaupdateTV5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/teaupdateET5"
+            android:layout_alignBottom="@+id/teaupdateET5"
+            android:layout_alignParentLeft="true"
+            android:text="参观人数："
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/teaupdateET5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/teaupdateET4"
+            android:layout_alignLeft="@+id/teaupdateET4"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/teaupdateET4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/teaupdateET3"
+            android:layout_alignLeft="@+id/teaupdateTV0"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:id="@+id/teaupdateTV0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="更新参观者信息"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/teaupdatebtn"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/teaupdateET5"
+            android:layout_alignLeft="@+id/teaupdateET5"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/title_bg"
+            android:onClick="teaUpdateLoad"
+            android:text="更新"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+</ScrollView>

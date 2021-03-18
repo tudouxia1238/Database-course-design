@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/general_bg"
+    android:orientation="vertical"
+    android:padding="0px" >
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="48dp"
+        android:background="@drawable/title_bg">
+
+        <FrameLayout
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/home_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="校史馆讲解系统"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btset"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="6dp"
+                android:background="@drawable/title_back_set_up"
+                android:visibility="gone" />
+        </FrameLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="0px"
+        android:layout_weight="13"
+        android:gravity="center_horizontal"
+        android:paddingTop="40dip"
+        android:paddingBottom="10dip">
+
+        <Button
+            android:id="@+id/info_handle_btn"
+            android:layout_width="173dp"
+            android:layout_height="56dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/bnt2"
+            android:gravity="center"
+            android:text="信息维护"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/all"
+            android:layout_width="164dp"
+            android:layout_height="58dp"
+            android:background="@drawable/bnt2"
+            android:onClick="all"
+            android:text="信息汇总"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_full"
+    android:background="@drawable/general_bg"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="360dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center|left"
+        android:background="@drawable/title_bg">
+
+        <TextView
+            android:id="@+id/kaitou"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="查看讲解"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/fanhui"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="right|left"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/title_back" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/listviews"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:cacheColorHint="#00000000"
+            android:fadingEdge="none"
+            android:listSelector="#00000000"></ListView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3" />
+    </LinearLayout>
+
+</LinearLayout>

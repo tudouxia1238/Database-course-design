@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/general_bg"
+    android:orientation="vertical"
+    android:padding="0px" >
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="48dp"
+        android:background="@drawable/title_bg">
+
+        <FrameLayout
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/home_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="校史馆参观系统"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btset"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="6dp"
+                android:background="@drawable/title_back_set_up"
+                android:visibility="gone" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="0px"
+        android:layout_weight="13"
+        android:gravity="center_horizontal"
+        android:paddingTop="40dip"
+        android:paddingBottom="10dip">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp">
+
+            <Button
+                android:id="@+id/show_cource"
+                android:layout_width="120dip"
+                android:layout_height="120dip"
+                android:layout_marginRight="2dip"
+                android:background="@drawable/upper_left"
+                android:gravity="top|center_horizontal"
+                android:paddingLeft="10dip"
+                android:paddingTop="9dip"
+                android:text="查看讲解"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/my_cource"
+                android:layout_width="120dip"
+                android:layout_height="120dip"
+                android:layout_below="@+id/show_cource"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="2dip"
+                android:background="@drawable/lower_left"
+                android:gravity="bottom|center_horizontal"
+                android:paddingLeft="10dip"
+                android:paddingBottom="9dip"
+                android:text="我的讲解"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/show_teacher"
+                android:layout_width="120dip"
+                android:layout_height="120dip"
+                android:layout_marginLeft="2dip"
+                android:layout_marginBottom="2dip"
+                android:layout_toRightOf="@+id/my_cource"
+                android:background="@drawable/upper_right"
+                android:gravity="top|center_horizontal"
+                android:paddingLeft="10dip"
+                android:paddingTop="9dip"
+                android:text="查看参观者"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/select_cource"
+                android:layout_width="123dp"
+                android:layout_height="123dp"
+                android:layout_below="@+id/show_teacher"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_toRightOf="@+id/show_cource"
+                android:background="@drawable/lower_right"
+                android:gravity="bottom|center_horizontal"
+                android:paddingLeft="10dip"
+                android:paddingBottom="9dip"
+                android:text="选择讲解"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

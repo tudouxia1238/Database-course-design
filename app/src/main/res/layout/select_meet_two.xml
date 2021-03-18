@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="335dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:id="@+id/courcecourceselectETcTV1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="78dp"
+            android:layout_marginTop="26dp"
+            android:text="查找讲解信息"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/courceselectTV2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/courcecourceselectETcTV1"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="36dp"
+            android:text="请输入要查找的讲解的ID号："
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/courceselectET"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/courceselectTV2"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:inputType="textMultiLine">
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/courceselectbtn"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_alignBaseline="@+id/courceselectET"
+            android:layout_alignBottom="@+id/courceselectET"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/courceselectET"
+            android:background="@drawable/btn"
+            android:onClick="courceSelectLoad"
+            android:text="查询"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/courceselectTV3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/courceselectET"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="23dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+</ScrollView>

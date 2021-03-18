@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.studentselectcource"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name="com.example.studentselectcource.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.studentselectcource.ShowMeetActivity"
+            android:label="@string/title_activity_show_cource" >
+        </activity>
+        <activity
+            android:name="com.example.studentselectcource.ShowVisitorActivity"
+            android:label="@string/title_activity_show_teacher" >
+        </activity>
+        <activity
+            android:name="com.example.studentselectcource.MyMeetActivity"
+            android:label="@string/title_activity_my_cource" >
+        </activity>
+        <activity
+            android:name="com.example.studentselectcource.SelectMeetActivity"
+            android:label="@string/title_activity_select_cource" >
+        </activity>
+        <activity
+            android:name="com.example.studentselectcource.MainActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+
+        <activity
+            android:name="com.example.studentselectcource.InfoHandleActivity"
+            android:label="@string/title_activity_info_handle" >
+        </activity>
+        <activity
+            android:name="com.example.studentselectcource.MainActivity_adminer"
+            android:label="@string/title_activity_info_handle" >
+        </activity>
+        <activity android:name="com.example.ssc.infohandle.DeleteStu" >
+        </activity>
+        <activity android:name="com.example.ssc.infohandle.SelectStu" >
+        </activity>
+        <activity android:name="com.example.ssc.infohandle.InsertStu" >
+        </activity>
+        <activity android:name="com.example.ssc.infohandle.UpdateStu" >
+        </activity>
+        <activity
+            android:name="com.example.ssc.infohandle.DeleteVisitor"
+            android:label="@string/title_activity_delete_tea" >
+        </activity>
+        <activity
+            android:name="com.example.ssc.infohandle.InsertVisitor"
+           android:label="@string/title_activity_insert_tea" >
+        </activity>
+        <activity
+            android:name="com.example.ssc.infohandle.SelectVisitor"
+            android:label="@string/title_activity_select_tea" >
+        </activity>
+        <activity
+            android:name="com.example.ssc.infohandle.UpdateVisitor"
+            android:label="@string/title_activity_update_tea" >
+        </activity>
+        <activity
+            android:name="com.example.ssc.infohandle.DeleteMeet"
+            android:label="@string/title_activity_delete_cource" >
+        </activity>
+        <activity
+            android:name="com.example.ssc.infohandle.InsertMeet"
+            android:label="@string/title_activity_insert_cource" >
+        </activity>
+        <activity
+            android:name="com.example.ssc.infohandle.SelectMeet"
+            android:label="@string/title_activity_select_cource" >
+        </activity>
+        <activity
+            android:name="com.example.ssc.infohandle.UpdateMeet"
+            android:label="@string/title_activity_update_cource" >
+        </activity>
+        <activity
+            android:name="com.example.studentselectcource.MeetDetailActivity"
+            android:label="@string/title_activity_cource_detail" >
+        </activity>
+        <activity
+            android:name="com.example.studentselectcource.VisitorDetailActivity"
+            android:label="@string/title_activity_teacher_detail" >
+        </activity>
+    </application>
+
+</manifest>

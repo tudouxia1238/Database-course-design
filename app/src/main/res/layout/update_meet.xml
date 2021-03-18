@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:id="@+id/courceupdateTV1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/courceupdateTV0"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="22dp"
+            android:text="ID    号:"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/courceupdateTV2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/courceupdateET2"
+            android:layout_alignParentLeft="true"
+            android:text="参观时间:"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/courceupdateET3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/courceupdateET2"
+            android:layout_alignLeft="@+id/courceupdateET4"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/courceupdateET1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/courceupdateTV1"
+            android:layout_alignLeft="@+id/courceupdateET2"
+            android:layout_alignBottom="@+id/courceupdateTV1"
+            android:ems="10"
+            android:inputType="textMultiLine">
+
+            <requestFocus />
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/courceupdateET2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/courceupdateET1"
+            android:layout_alignLeft="@+id/courceupdateET3"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:id="@+id/courceupdateTV3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/courceupdateET3"
+            android:layout_alignBottom="@+id/courceupdateET3"
+            android:layout_alignParentLeft="true"
+            android:text="参观学院："
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/courceupdateTV7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/courceupdateET4"
+            android:layout_alignBottom="@+id/courceupdateET4"
+            android:layout_alignParentLeft="true"
+            android:text="参观人数："
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/courceupdateTV5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/courceupdateET5"
+            android:layout_alignBottom="@+id/courceupdateET5"
+            android:layout_alignParentLeft="true"
+            android:text="参观班级："
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/courceupdateET5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/courceupdateET4"
+            android:layout_alignLeft="@+id/courceupdateET4"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/courceupdateET4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/courceupdateET3"
+            android:layout_alignLeft="@+id/courceupdateTV0"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:id="@+id/courceupdateTV0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="更新讲解信息"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/courceupdatebtn"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/courceupdateET5"
+            android:layout_marginTop="87dp"
+            android:background="@drawable/title_bg"
+            android:onClick="courceUpdateLoad"
+            android:text="更新"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+</ScrollView>

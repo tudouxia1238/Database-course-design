@@ -1,0 +1,98 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "153,55,102",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "194,97,148"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,101,148",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "96,143,194"
+                    }
+                },
+                {
+                    "source": "/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/res/values/style_layout.xml",
+                    "from": {
+                        "startLines": "4,16,21,10",
+                        "startColumns": "2,2,2,2",
+                        "startOffsets": "75,445,589,261",
+                        "endLines": "7,18,23,13",
+                        "endColumns": "10,10,10,10",
+                        "endOffsets": "236,564,707,424"
+                    },
+                    "to": {
+                        "startLines": "37,41,44,47",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "1962,2125,2247,2368",
+                        "endLines": "40,43,46,50",
+                        "endColumns": "10,10,10,10",
+                        "endOffsets": "2120,2242,2363,2528"
+                    }
+                },
+                {
+                    "source": "/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/res/values/dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "92,151",
+                        "endColumns": "57,55",
+                        "endOffsets": "145,202"
+                    },
+                    "to": {
+                        "startLines": "5,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "199,257",
+                        "endColumns": "57,55",
+                        "endOffsets": "252,308"
+                    }
+                },
+                {
+                    "source": "/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "4,3,5,21,17,13,12,19,14,11,18,8,9,10,15,6,7,22,20,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,59,159,1149,898,654,593,1023,715,540,961,351,410,473,776,213,288,1212,1086,837",
+                        "endColumns": "52,44,52,61,61,59,59,61,59,51,60,57,61,65,59,73,61,63,61,59",
+                        "endOffsets": "153,99,207,1206,955,709,648,1080,770,587,1017,404,467,534,831,282,345,1271,1143,892"
+                    },
+                    "to": {
+                        "startLines": "7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "313,366,411,464,526,588,648,708,770,830,882,943,1001,1063,1129,1189,1263,1325,1389,1451",
+                        "endColumns": "52,44,52,61,61,59,59,61,59,51,60,57,61,65,59,73,61,63,61,59",
+                        "endOffsets": "361,406,459,521,583,643,703,765,825,877,938,996,1058,1124,1184,1258,1320,1384,1446,1506"
+                    }
+                },
+                {
+                    "source": "/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "191,522",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "481,679"
+                    },
+                    "to": {
+                        "startLines": "27,34",
+                        "startColumns": "4,4",
+                        "startOffsets": "1511,1802",
+                        "endLines": "33,36",
+                        "endColumns": "12,12",
+                        "endOffsets": "1797,1957"
+                    }
+                }
+            ]
+        }
+    ]
+}

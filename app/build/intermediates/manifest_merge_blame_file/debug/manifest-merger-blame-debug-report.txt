@@ -1,0 +1,182 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.studentselectcource"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:7:5-47
+8        android:minSdkVersion="11"
+8-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:7:5-47
+9        android:targetSdkVersion="29" />
+9-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:7:15-44
+10
+11    <application
+11-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:9:5-101:19
+12        android:allowBackup="true"
+12-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:10:9-35
+13        android:debuggable="true"
+14        android:icon="@drawable/ic_launcher"
+14-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:11:9-45
+15        android:label="@string/app_name"
+15-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:12:9-41
+16        android:screenOrientation="portrait"
+16-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:13:9-45
+17        android:testOnly="true"
+18        android:theme="@android:style/Theme.NoTitleBar" >
+18-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:14:9-56
+19        <activity
+19-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:15:9-23:20
+20            android:name="com.example.studentselectcource.LoginActivity"
+20-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:16:13-73
+21            android:label="@string/app_name" >
+21-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:17:13-45
+22            <intent-filter>
+22-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:18:13-22:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:19:17-69
+23-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:19:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:21:17-77
+25-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:21:27-74
+26            </intent-filter>
+27        </activity>
+28        <activity
+28-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:24:9-27:20
+29            android:name="com.example.studentselectcource.ShowMeetActivity"
+29-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:25:13-76
+30            android:label="@string/title_activity_show_cource" >
+30-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:26:13-63
+31        </activity>
+32        <activity
+32-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:28:9-31:20
+33            android:name="com.example.studentselectcource.ShowVisitorActivity"
+33-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:29:13-79
+34            android:label="@string/title_activity_show_teacher" >
+34-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:30:13-64
+35        </activity>
+36        <activity
+36-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:32:9-35:20
+37            android:name="com.example.studentselectcource.MyMeetActivity"
+37-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:33:13-74
+38            android:label="@string/title_activity_my_cource" >
+38-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:34:13-61
+39        </activity>
+40        <activity
+40-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:36:9-39:20
+41            android:name="com.example.studentselectcource.SelectMeetActivity"
+41-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:37:13-78
+42            android:label="@string/title_activity_select_cource" >
+42-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:38:13-65
+43        </activity>
+44        <activity
+44-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:40:9-43:20
+45            android:name="com.example.studentselectcource.MainActivity"
+45-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:41:13-72
+46            android:label="@string/title_activity_login" >
+46-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:42:13-57
+47        </activity>
+48        <activity
+48-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:45:9-48:20
+49            android:name="com.example.studentselectcource.InfoHandleActivity"
+49-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:46:13-78
+50            android:label="@string/title_activity_info_handle" >
+50-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:47:13-63
+51        </activity>
+52        <activity
+52-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:49:9-52:20
+53            android:name="com.example.studentselectcource.MainActivity_adminer"
+53-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:50:13-80
+54            android:label="@string/title_activity_info_handle" >
+54-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:51:13-63
+55        </activity>
+56        <activity android:name="com.example.ssc.infohandle.DeleteStu" >
+56-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:53:9-54:20
+56-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:53:19-70
+57        </activity>
+58        <activity android:name="com.example.ssc.infohandle.SelectStu" >
+58-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:55:9-56:20
+58-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:55:19-70
+59        </activity>
+60        <activity android:name="com.example.ssc.infohandle.InsertStu" >
+60-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:57:9-58:20
+60-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:57:19-70
+61        </activity>
+62        <activity android:name="com.example.ssc.infohandle.UpdateStu" >
+62-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:59:9-60:20
+62-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:59:19-70
+63        </activity>
+64        <activity
+64-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:61:9-64:20
+65            android:name="com.example.ssc.infohandle.DeleteVisitor"
+65-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:62:13-68
+66            android:label="@string/title_activity_delete_tea" >
+66-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:63:13-62
+67        </activity>
+68        <activity
+68-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:65:9-68:20
+69            android:name="com.example.ssc.infohandle.InsertVisitor"
+69-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:66:13-68
+70            android:label="@string/title_activity_insert_tea" >
+70-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:67:12-61
+71        </activity>
+72        <activity
+72-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:69:9-72:20
+73            android:name="com.example.ssc.infohandle.SelectVisitor"
+73-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:70:13-68
+74            android:label="@string/title_activity_select_tea" >
+74-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:71:13-62
+75        </activity>
+76        <activity
+76-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:73:9-76:20
+77            android:name="com.example.ssc.infohandle.UpdateVisitor"
+77-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:74:13-68
+78            android:label="@string/title_activity_update_tea" >
+78-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:75:13-62
+79        </activity>
+80        <activity
+80-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:77:9-80:20
+81            android:name="com.example.ssc.infohandle.DeleteMeet"
+81-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:78:13-65
+82            android:label="@string/title_activity_delete_cource" >
+82-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:79:13-65
+83        </activity>
+84        <activity
+84-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:81:9-84:20
+85            android:name="com.example.ssc.infohandle.InsertMeet"
+85-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:82:13-65
+86            android:label="@string/title_activity_insert_cource" >
+86-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:83:13-65
+87        </activity>
+88        <activity
+88-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:85:9-88:20
+89            android:name="com.example.ssc.infohandle.SelectMeet"
+89-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:86:13-65
+90            android:label="@string/title_activity_select_cource" >
+90-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:87:13-65
+91        </activity>
+92        <activity
+92-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:89:9-92:20
+93            android:name="com.example.ssc.infohandle.UpdateMeet"
+93-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:90:13-65
+94            android:label="@string/title_activity_update_cource" >
+94-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:91:13-65
+95        </activity>
+96        <activity
+96-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:93:9-96:20
+97            android:name="com.example.studentselectcource.MeetDetailActivity"
+97-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:94:13-78
+98            android:label="@string/title_activity_cource_detail" >
+98-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:95:13-65
+99        </activity>
+100        <activity
+100-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:97:9-100:20
+101            android:name="com.example.studentselectcource.VisitorDetailActivity"
+101-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:98:13-81
+102            android:label="@string/title_activity_teacher_detail" >
+102-->/Users/shengxinyi/Desktop/校史馆讲解预约系统/app/src/main/AndroidManifest.xml:99:13-66
+103        </activity>
+104    </application>
+105
+106</manifest>
